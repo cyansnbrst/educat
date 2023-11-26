@@ -52,7 +52,6 @@ class Module(models.Model):
         return f'{self.order}. {self.title}'
 
 
-
 class Content(models.Model):
     module = models.ForeignKey(Module,
                                related_name='contents',
