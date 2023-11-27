@@ -95,7 +95,6 @@ h1 {
     margin: 0 0 10px 0;
     padding: 4px 10px 10px;
     overflow: auto;
-    cursor: move;
 }
 
 .contents ul li.selected {
@@ -127,7 +126,6 @@ h1 {
 
 .contents ul a:hover {
     color: #4dcc43;
-    cursor: move;
 }
 
 ul.content-types li {
@@ -210,7 +208,6 @@ ul#course-modules textarea {
 ul#course-modules li {
     padding: 20px;
     overflow: auto;
-    cursor: move;
     user-select: none;
 }
 
@@ -244,10 +241,6 @@ ul#course-modules li:hover {
     padding: 0;
     float: left;
     text-transform: none;
-}
-
-#module-contents div:hover {
-    cursor: move;
 }
 
 .course-info {
